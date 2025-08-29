@@ -7,10 +7,15 @@ echo "Cleaning dnf garbage"
 dnf clean all || echo "Dnf garbage cleaning failed"
 echo "You want to remove .cache?"
 read -r resp
-if [[ "$resp" == "y" ]]; then
- rm -rf ~/.cache/*
- echo ".cache cleaned"
+if [[ "$1" == "--force" ]]; then
+    rm -rf ~/.cache/*
+    echo ".cache cleaned (force mode)"
 else
- echo "Your choice"
+ if [[ "$resp" == "y" ]]; then
+  rm -rf ~/.cache/*
+  echo ".cache cleaned"
+ else
+  echo "Your choice"
+ fi
 fi
 echo "Empty storage space on root: $(df -h /)"
