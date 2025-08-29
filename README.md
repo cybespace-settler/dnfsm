@@ -1,23 +1,23 @@
-#DNF System Maintaince#
+# DNF System Maintenance #
 
 Script to update and clean dnf-based system
-##Installation
+## Installation
 
 git clone https://github.com/cybespace-settler/dnfsm.git
 cd dnfsm
 
 chmod a+x dnfsm.sh
 
-##Usage
+## Usage
 
-Just run WITH ROOT ./dnfsm.sh 
+Just run WITH ROOT(sudo) ./dnfsm.sh 
 
 Or --force so .cache folder will be cleaned automatically
 
-#You can run this script with docker too!
+# You can run this script with docker too!
 
 Clone this repository and cd into it
 
-docker build -t dnfsm
+docker build -t dnfsm .
 
-docker run dnfsm
+docker run -rm dnfsm
