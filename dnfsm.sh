@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Updating system"
-dnf upgrade --refresh || echo "dnf update doesnt work, maybe network idk"
+dnf update --refresh -y || echo "dnf update doesnt work, maybe network idk"
 echo "Removing unneeded dependencies"
 dnf autoremove || echo "Oops, autoremove doesn't work" 
 echo "Cleaning dnf garbage"
@@ -13,4 +13,4 @@ if [[ "$resp" == "y" ]]; then
 else
  echo "Your choice"
 fi
-echo "Done"
+echo "Empty storage space on root: $(df -h /)"
