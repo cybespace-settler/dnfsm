@@ -1,3 +1,5 @@
+[![dnfsm](https://github.com/cybespace-settler/dnfsm/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/cybespace-settler/dnfsm/actions/workflows/main.yml)
+
 # DNF System Maintenance #
 
 Script to update and clean dnf-based system
