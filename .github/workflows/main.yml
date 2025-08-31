@@ -3,7 +3,9 @@ on: [push]
 jobs:
  build:
   runs-on: ubuntu-latest 
-  container: fedora:latest
+  strategy:
+   matrix: 
+    container: [fedora:latest, fedora:41, fedora:rawhide, rockylinx:8, rockylinux:9, almalinux:latest]
   steps:
    - uses: actions/checkout@v4
    - run: chmod a+x ./dnfsm.sh
