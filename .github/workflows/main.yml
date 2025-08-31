@@ -3,7 +3,7 @@ on: [push]
 jobs:
  build:
   runs-on: ubuntu-latest 
-  container: centos:stream9
+  container: fedora:latest
   steps:
    - uses: actions/checkout@v4
    - run: ls
