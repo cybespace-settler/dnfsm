@@ -2,7 +2,9 @@ name: dnfsm
 on: [push]
 jobs:
  build:
-  runs-on: ubuntu-latest
+  runs-on: ubuntu-latest 
+  container: centos:stream9
   steps:
    - uses: actions/checkout@v4
+   - run: ls
    - run: echo "Hello, World!"
