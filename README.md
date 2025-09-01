@@ -1,22 +1,24 @@
 [![dnfsm](https://github.com/cybespace-settler/dnfsm/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/cybespace-settler/dnfsm/actions/workflows/main.yml)
 
-# DNF System Maintenance #
+# System Maintenance script #
 
-Script to update and clean dnf-based system
+Script to update and clean your linux system
 ## Installation
 
 git clone https://github.com/cybespace-settler/dnfsm.git
 cd dnfsm
 
-chmod a+x dnfsm.sh
+Choose your package manager Debian/Ubuntu=aptsm.sh etc
+
+chmod a+x *script_you_choosed*.sh
 
 ## Usage
 
-Just run WITH ROOT(sudo) ./dnfsm.sh 
+Just run WITH ROOT(sudo) ./*script_you_choosed*.sh 
 
 Or --force so .cache folder will be cleaned automatically
 
-# You can run this script with docker too!
+# You can run this script with docker too(for dnf-based only)!
 
 Clone this repository and cd into it
 
