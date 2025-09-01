@@ -1,6 +1,6 @@
-[![dnfsm](https://github.com/cybespace-settler/dnfsm/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/cybespace-settler/dnfsm/actions/workflows/main.yml)
+[![aptsm](https://github.com/cybespace-settler/dnfsm/actions/workflows/apt.yml/badge.svg)](https://github.com/cybespace-settler/dnfsm/actions/workflows/apt.yml)  [![dnfsm](https://github.com/cybespace-settler/dnfsm/actions/workflows/dnf.yml/badge.svg)](https://github.com/cybespace-settler/dnfsm/actions/workflows/dnf.yml)
 
-# System Maintenance script #
+# System Maintenance scripts #
 
 Script to update and clean your linux system
 ## Installation
