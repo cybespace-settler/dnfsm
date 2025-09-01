@@ -10,7 +10,7 @@ cd dnfsm
 
 Choose your package manager Debian/Ubuntu=aptsm.sh etc
 
-chmod a+x *script_you_choosed*.sh
+chmod a+x *script_you_choose*.sh
 
 ## Usage
 
