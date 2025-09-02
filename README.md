@@ -1,4 +1,4 @@
-[![aptsm](https://github.com/cybespace-settler/dnfsm/actions/workflows/apt.yml/badge.svg)](https://github.com/cybespace-settler/dnfsm/actions/workflows/apt.yml)  [![dnfsm](https://github.com/cybespace-settler/dnfsm/actions/workflows/dnf.yml/badge.svg)](https://github.com/cybespace-settler/dnfsm/actions/workflows/dnf.yml)
+[![aptsm](https://github.com/cybespace-settler/dnfsm/actions/workflows/apt.yml/badge.svg)](https://github.com/cybespace-settler/dnfsm/actions/workflows/apt.yml)  [![dnfsm](https://github.com/cybespace-settler/dnfsm/actions/workflows/dnf.yml/badge.svg)](https://github.com/cybespace-settler/dnfsm/actions/workflows/dnf.yml)  [![Docker Image CI](https://github.com/cybespace-settler/dnfsm/actions/workflows/docker-image.yml/badge.svg)](https://github.com/cybespace-settler/dnfsm/actions/workflows/docker-image.yml)
 
 # System Maintenance scripts #
 
