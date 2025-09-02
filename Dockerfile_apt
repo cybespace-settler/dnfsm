@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM ubuntu:latest
 RUN apt update -y && apt upgrade -y && apt install -y sudo
 COPY aptsm.sh /aptsm.sh
 RUN chmod a+x /aptsm.sh
