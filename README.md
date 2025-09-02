@@ -5,23 +5,29 @@
 Script to update and clean your linux system
 ## Installation
 
-git clone https://github.com/cybespace-settler/dnfsm.git
-cd dnfsm
+`git clone https://github.com/cybespace-settler/dnfsm.git
+cd dnfsm`
 
 Choose your package manager Debian/Ubuntu=aptsm.sh etc
 
-chmod a+x *script_you_choose*.sh
+`chmod a+x script_you_choose.sh`
 
 ## Usage
 
-Just run WITH ROOT(sudo) ./*script_you_choosed*.sh 
+Just run WITH ROOT(sudo) `./*script_you_choosed*.sh` 
 
-Or --force so .cache folder will be cleaned automatically
+Or `--force` so `.cache` folder will be cleaned automatically
 
-# You can run this script with docker too(for dnf-based only)!
+# You can run this script with docker too!
 
 Clone this repository and cd into it
 
-docker build -t dnfsm .
+`docker build -t dnfsm -f Dockerfile .`
 
-docker run -rm dnfsm
+`docker run -rm dnfsm`
+
+Or apt version
+
+`docker build -t aptsm -f Dockerfile_apt .`
+
+`docker run -rm aptsm`
