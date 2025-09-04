@@ -14,7 +14,7 @@ Choose your package manager Debian/Ubuntu=aptsm.sh etc
 
 ## Usage
 
-Just run WITH ROOT(sudo) `./*script_you_choosed*.sh` 
+Just run WITH ROOT(sudo) `./*script*.sh` 
 
 Or `--force` so `.cache` folder will be cleaned automatically
 
